@@ -96,13 +96,14 @@
                          O type serve para indicar qual o tipo  de valor que o campo vai receber.
                          O name é o nome da informação que vai  ser enviada no formulário.
                          O id é o identificador UNICO usado para vincular o campo com o <label>.
+                         O required faz com que o campo seja obrigatório para o envio.
                     -->
                     <input type="text" name="nome" id="nome">
                     <br/><br/>
 
-                     <label for="email">E-mail:</label>
+                     <label for="email" >E-mail:</label>
                      <br/>
-                     <input type="text" name="email" id="email">
+                     <input type="email" name="email" id="email" required>
                      <br/><br/>
                      <label for="mensagem">Mensagem:</label>
                       <br/>
@@ -115,6 +116,27 @@
                      -->
                      <button type="submit">Enviar mensagem</button>
                 </form>     
+            </section>
+                <table border="1">
+                    <caption>Minhas Habilidades</caption>
+                    <thead>
+                        <tr>
+                            <th>Linguagem</th>
+                            <th>Principais conteúdos</th>
+                            <th>Nível de dificuldade</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>HTML</td>
+                            <td>estrutura de páginas, tags, links, listas, formulários e tabelas</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            <section>
+
             </section>
     
         </main>
