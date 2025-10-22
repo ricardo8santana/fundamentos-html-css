@@ -6,6 +6,8 @@
         <meta chartset="utf-8"/>
         <!-- aqui configuramos a escala (tipos de telas) em que o site vai ser exibido-->
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
+            <!-- Vincular/linkar o arquivo de css a nossa página-->
+        <link rel="stylesheet" href="./style.css"/>
         <!-- texto da pagina, exibido na guia do site-->
          <title>Quem sou eu</title>
      </head>
@@ -25,10 +27,21 @@
             <h5>titulo com h5</h5>
             <h6>titulo com h6</h6> -->
         </header>
+        <!-- Navegação-->
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#interesses">Interesses</a></li>
+                <li><a href="#objetivos">Objetivos</a></li>
+                <li><a href="#contatos">Contatos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#redes">Redes Sociais</a></li>
+            </ul>
+        </nav>
         <!--corpo-->
         <main>
             <!-- as section's criam sessões, partição, dentro do site-->
-            <section>
+            <section id="sobre">
                 <h2>Sobre min</h2>
                 <!-- a tag de img serve para adicionar imagens ao nosso site ela vem com duas propriedades
                  src ==> serve para mostrar o caminho da imagem
@@ -44,7 +57,7 @@
                       Nesta página, você vai conhecer um pouco mais sobre min.
                 </p>
             </section>
-            <section>
+            <section id="interesses">
                    <h2>Interesses</h2>
                    <p>Algumas coisas que me fazem brilhar os olhos:</p>
                    <!-- Para criar listas podemos usar as seguintes tags: 
@@ -65,7 +78,7 @@
                         <li>Projetos de baixo custo usando automação</li>
                     </ol>
             </section>
-            <section>
+            <section id="objetivos">
                 <h2>Objetivos</h2>
                 <p>Metas para os próximos meses:</p>
                 <ol>
@@ -75,7 +88,7 @@
                  
                 </ol>
             </section>
-            <section>
+            <section id="contatos">
                 <h2>Contatos</h2>
                 <p>Preencha o formulário para falar comigo:</p>
 
@@ -117,7 +130,7 @@
                      <button type="submit">Enviar mensagem</button>
                 </form>     
             </section>
-               <section>
+               <section id="habilidades">
                 <!-- A tag <tabela> cria uma tabela para organizar dados em linhas e colunas.
                      O atributo border é usado apenas para mostrar as bordas de forma simples
                 -->
@@ -166,7 +179,7 @@
                     </tbody>
                 </table>
             </section>
-            <section>
+            <section id="redes">
                 <h2>Redes Sociais</h2>
                 <!--A tag <a> é uma tag de ancora que cria um link para outras páginas
                     O href serve para acrescentar este link ao texto

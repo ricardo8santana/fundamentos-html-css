@@ -1,0 +1,23 @@
+/*
+o css (Cascading Style Sheets) serve para definir o estilo visual do HTML.
+Ele trabalha com partes principais:
+- Seletores: o que estilizado (ex: color, font-size, #id)
+- Propriedades: o que será alterado (ex: color, font-size)
+-Valor: o novo estilo (ex: blue, 20px)
+=========================================================================
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*
+O seletor body representa o corpo da página.
+As propriedades definem a apararência geral do site
+*/
+
+body{
+    /*tipo de fonte do site*/
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
