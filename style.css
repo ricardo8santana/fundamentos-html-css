@@ -107,4 +107,7 @@ CABEÇALHO E MENU DE NAVEGAÇÃO
     border-top: 1px solid #1e293b;
     /* borda inferior --> 1px (espessura), solid (o tipo de borda),cor */
     border-bottom: 1px solid #1e293b;
+    /*A position define a posição que o elemento vai ser exibido, nesse caso o stiky deixa o menu fixo no topo. tornar o menu fixo no topo ao rolar a página */
+    position: sticky;
+    top: 0;
  }
