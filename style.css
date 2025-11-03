@@ -204,6 +204,7 @@ input, textarea{
     background-color: #0f172a;
     border: 1.5px solid #1e293b;
     border-radius: 10px;
+    color: #e2e8f0;
 }
 input:focus, textarea:focus{
     /* mudar a borda ao focar no campo */
