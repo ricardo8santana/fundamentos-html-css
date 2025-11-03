@@ -228,10 +228,10 @@ TABELA
 ==================================================
 */
 
-table{
+table, ul{
     width: 100%;
     border: 1px solid #1e293b;
-    border-radius: 10px;
+    border-radius: 30px;
     background-color: #0f172a;
     /* o border collapse une as bordas da tabela */
     border-collapse: collapse;
